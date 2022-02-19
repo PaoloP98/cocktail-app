@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+:root {
+  --primary: #FFBE69;
+  --dark-text: #1E0000;
+  --tertiary: #026873;
+  --bs-body-bg: #f4f3ec;
+  --bs-body-color: #09303e;
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+h1 {
+  letter-spacing: -0.03rem;
+}
+
+.img_thumbnail {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+}
+
+.card-body {
+  background-color: var(--primary);
+  color: var(--dark-text);
+}
+
+
+.breadcrumb-item {
+  color: var(--dark-text);
+}
+
+.breadcrumb-item.active {
+  color: var(--dark-text);
+  font-weight: 700;
+}

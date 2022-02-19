@@ -1,0 +1,41 @@
+footer {
+    background: var(--primary);
+    color: white;
+    padding: 20px 0;
+}
+
+#course {
+    font-size: 20px;
+    margin-right: 30px;
+    max-width: 250px;
+}
+
+.logo {
+    max-width: 80px;
+    margin: 0 6px;
+    align-self: center;
+}
+
+.copyright {
+    border-left: 1px solid lightgreen;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+a {
+    color: var(--dark-text) !important;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+a.active {
+    color: #5B3CBB !important;
+    font-weight: 900;
+    letter-spacing: 0.02rem;
+}

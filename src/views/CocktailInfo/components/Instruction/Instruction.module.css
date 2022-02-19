@@ -1,0 +1,12 @@
+.flagButton {
+    background: 'none';
+    border: none !important;
+    background-color: rgb(230, 227, 227);
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+}
+.flagButtonActive {
+    background: var(--primary);
+    font-weight: 700;
+
+}

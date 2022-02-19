@@ -1,0 +1,17 @@
+
+.navbar {
+    background-color: var(--primary) !important;
+  }
+.navbarBrand {
+    color: var(--dark-text);
+}
+
+.navItem a {
+    color: var(--dark-text) !important;
+}
+
+.navItem a.active {
+    color: #5B3CBB !important;
+    font-weight: 900;
+    letter-spacing: 0.02rem;
+}

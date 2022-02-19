@@ -1,0 +1,11 @@
+.cocktailCard {
+    cursor: pointer;
+}
+.cocktailCard img {
+    object-fit: cover;
+}
+
+.linkStyle {
+    display: block;
+    text-decoration: none;
+}
